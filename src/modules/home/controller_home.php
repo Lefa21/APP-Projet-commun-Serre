@@ -23,7 +23,7 @@ class ControllerHome
 
     public function welcome()
     {
-        $result = $this->modele->recupereTop3();
+      $result = $this->modele->recupereTop3();
         
         $this->vue->welcome($result);
     }

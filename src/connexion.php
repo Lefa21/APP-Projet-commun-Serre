@@ -3,10 +3,10 @@
 class Connexion
 {
     protected static $bdd;
-    protected static $dbname = 'BVPJGNBH4f_etudiappar';
-    protected static $dbhost = 'herogu.garageisep.com';
-    protected static $dbuser = 'YhUz7DCG8d_etudiappar';
-    protected static $dbpasswd = 'IlSbC1L3sxvZkxVe';
+    protected static $dbname = 'projet_commun_isep';
+    protected static $dbhost = 'localhost';
+    protected static $dbuser = 'root';
+    protected static $dbpasswd = '';
 
     public function __construct()
     {

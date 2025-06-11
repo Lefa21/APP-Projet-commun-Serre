@@ -1,7 +1,7 @@
 <?php
 
 require_once __DIR__  . '/../../connexion.php';
-require_once 'C:/xampp/htdocs/EtudiaAppart/vendor/autoload.php'; // Inclure PHPMailer via Composer
+require_once 'C:/xampp/htdocs/APP-Projet-commun-Serre/vendor/autoload.php'; // Inclure PHPMailer via Composer
 
 use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\Exception;
@@ -116,7 +116,7 @@ class ModeleInscription extends Connexion
                 $body = "
                     <p>Bonjour,</p>
                     <p>Veuillez cliquer sur le lien ci-dessous pour confirmer votre email :</p>
-                    <p><a href='http://localhost/EtudiaAppart/index.php?module=inscription&action=confirmEmail&token=$activation_token'>
+                    <p><a href='http://localhost/APP-Projet-commun-Serre/index.php?module=inscription&action=confirmEmail&token=$activation_token'>
                     Activer le compte</a></p>
                     <p>Ce lien expirera dans 10 minutes.</p>
                     <p>Cordialement,<br>Staff EtudiAppart</p>

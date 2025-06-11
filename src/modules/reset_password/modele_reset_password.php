@@ -97,7 +97,7 @@ class ModeleResetPassword extends Connexion
                     $body = "
                         <p>Bonjour,</p>
                         <p>Veuillez cliquer sur le lien ci-dessous pour réinitialiser votre mot de passe :</p>
-                        <p><a href='http://localhost/EtudiaAppart/index.php?module=resetPassword&action=resetPassword&token=$token'>
+                        <p><a href='http://localhost/APP-Projet-commun-Serre/index.php?module=resetPassword&action=resetPassword&token=$token'>
                         Réinitialiser mon mot de passe</a></p>
                         <p>Ce lien expirera dans 10 minutes.</p>
                         <p>Cordialement,<br>L'équipe EtudiAppart</p>
